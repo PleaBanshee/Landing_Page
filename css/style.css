@@ -46,6 +46,29 @@ div {
 	width: 30em;
 	height: 20em;
 	border-radius: 50%;
+	margin-top: -10px;
+}
+
+#btn-subscribe {
+	margin-top: 70px;
+}
+
+.btn-outline-primary {
+	height: 5rem;
+	width: 20rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 2rem;
+	border-radius: 15px;
+	border: 5px solid white;
+	background-color: #D3D3D3;
+}
+
+.btn-outline-primary:hover {
+	transition: 3s;
+	background-color: springgreen;
+	color: 	white;
+	border-color: black;
 }
 
 .visibility{
