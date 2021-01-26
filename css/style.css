@@ -178,20 +178,23 @@ header h1{
 	font-weight: 300;
 	font-size: 100px;
 	font-family: 'Roboto Condensed', sans-serif;
-	/* white-space: nowrap; */
-	/* margin-left: -360px; */
-	
 }
 
-/* @media screen and (max-width: 600px) {
+@media only screen and (max-width: 360px) {
 	header h1 {
-	  font-size: 30px;
+	  font-size: 1px;
+	  padding: 70px 0px 0px 0px;
 	}
-} */
+
+	.animate__animated {
+		width: 20em;
+		height: 13.3em;
+		margin-top: -50px;
+	}
+}
 
 header p.lead{
 	font-size: 36px;
-	/* margin-left: -60px; */
 }
 
 
