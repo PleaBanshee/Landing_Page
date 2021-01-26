@@ -42,11 +42,12 @@ button {
 	user-select: none;
 }
 
-div {
+.animate__animated {
 	width: 30em;
 	height: 20em;
 	border-radius: 50%;
 	margin-top: -10px;
+	margin: auto;
 }
 
 #btn-subscribe {
@@ -160,7 +161,7 @@ nav.navbar.fixed-to-top{
 /* HEADER 
 /*-----------------------------------------------------------------------------------*/
 
-header{
+header {
 	padding: 150px 0px 0px 0px;
 	height: 960px;
 	background: url('../img/nepal.jpg');
@@ -177,15 +178,20 @@ header h1{
 	font-weight: 300;
 	font-size: 100px;
 	font-family: 'Roboto Condensed', sans-serif;
-	white-space: nowrap;
-	margin-left: -350px;
+	/* white-space: nowrap; */
+	/* margin-left: -360px; */
 	
 }
 
+/* @media screen and (max-width: 600px) {
+	header h1 {
+	  font-size: 30px;
+	}
+} */
+
 header p.lead{
 	font-size: 36px;
-	white-space: nowrap;
-	margin-left: -60px;
+	/* margin-left: -60px; */
 }
 
 
