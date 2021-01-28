@@ -208,6 +208,17 @@ header .carousel-iphone{
 	
 }
 
+.img-responsive {
+	margin-top: -130px;
+	border-radius: 50%;
+}
+
+.Characteristics {
+	border-radius: 0px;
+	margin-top: -10px;
+	size: 4em;
+}
+
 header .carousel {
 	position: relative;
 	margin-right: auto;
@@ -315,11 +326,11 @@ header .carousel-indicators li {
 	overflow: hidden;
 	margin-right: auto;
 	margin-left: auto;
-	padding-top: 95px;
+	padding-top: 200px;
 	width: 320px;
 	height: 450px;
-	background: url('../img/iphone-front.png') no-repeat;
 	background-size: 100%;
+	margin-top: -100px;
 }
 
 .detail .app-screenshot img{
