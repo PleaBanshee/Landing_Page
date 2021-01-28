@@ -424,8 +424,9 @@ header .carousel-indicators li {
 	padding: 50px 0px 50px 0px;
 	min-height: 350px;
 	background: url('../img/NY.jpg');
+	background-attachment: scroll;
 	background-position: center center;
-	background-repeat: none;
+	background-repeat: no-repeat;
 	background-size: cover;
 	color: yellow;
 }
@@ -556,6 +557,10 @@ header, .social{
 }
 
 @media (max-width:480px){
+
+	.social a {
+		font-size: 16px;
+	}
 
 	.detail .carousel-indicators {
 		margin-top: -280px;
